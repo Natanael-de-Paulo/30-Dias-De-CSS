@@ -6,3 +6,5 @@ o que aprendi:
 - Opacidade / transparência do CSS
 - hover
 - nth-child ()
+  
+  https://github.com/NatanaelPJ/30-Dias-De-CSS/issues/1#issue-1104105239
