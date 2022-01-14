@@ -1,4 +1,4 @@
-o que aprendi:
+O que aprendi:
 
 - Criar as camadas utilizando a tag <span>
 - tranformação 2D ou 3D de um elemento 
