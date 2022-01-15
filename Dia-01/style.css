@@ -1,27 +1,36 @@
-body {
+* {
   margin: 0;
   padding: 0;
+}
+html,
+body {
+  width: 100%;
+}
+
+div {
+  margin: auto;
   height: 100vh;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
 }
 
 ul {
+  width: 100%;
   display: flex;
-
-  position: relative;
-  margin: 0;
-  padding: 0;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  gap: 1rem;
 }
 
 ul li {
   position: relative;
   list-style: none;
-  width: 60px;
-  height: 60px;
-  margin: 0 30px;
+  display: flex;
+  width: 3.75rem;
+  height: 3.75rem;
+  margin: 0 1.85rem;
   transform: rotate(-30deg) skew(25deg);
 }
 
@@ -36,7 +45,7 @@ ul li span {
 
   width: 100%;
   height: 100%;
-  border-radius: 3px;
+  border-radius: 4px;
   font-size: 30px !important;
   color: whitesmoke;
 }
@@ -83,4 +92,36 @@ ul li:nth-child(4) span {
 }
 ul li:nth-child(5) span {
   background: #dd2a7b;
+}
+
+@media (max-width: 320px) {
+  ul {
+    width: 60%;
+    flex-direction: column;
+  }
+  ul li {
+    width: 4rem;
+    height: 4rem;
+    transform: rotateX(0deg) skew(0deg);
+  }
+
+  ul li:hover span:nth-child(5) {
+    transform: translate(0px, -16px);
+    opacity: 1;
+  }
+
+  ul li:hover span:nth-child(4) {
+    transform: translate(0px, -12px);
+    opacity: 0.8;
+  }
+
+  ul li:hover span:nth-child(3) {
+    transform: translate(0px, -8px);
+    opacity: 0.6;
+  }
+
+  ul li:hover span:nth-child(2) {
+    transform: translate(0px, -4px);
+    opacity: 0.4;
+  }
 }
