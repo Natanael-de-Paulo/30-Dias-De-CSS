@@ -1,5 +1,13 @@
 ## Animated Circular Navigation Menu
 
+
+Esse pequeno projeto foi desenvolvido com as seguintes tecnologias para fins de aprimoramento:
+
+HTML
+CSS
+JavaScript
+
+
 Utilitários:
 
 - [Ionic](https://ionic.io/ionicons)
