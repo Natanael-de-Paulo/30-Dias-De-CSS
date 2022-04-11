@@ -3,9 +3,9 @@
 
 Esse pequeno projeto foi desenvolvido com as seguintes tecnologias para fins de aprimoramento:
 
-HTML
-CSS
-JavaScript
+- HTML
+- CSS
+- JavaScript
 
 
 Utilitários:
